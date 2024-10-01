@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: YekanBakh-Fat;
+  src: url(../../public/YekanBakh-Fat.ttf);
+}
+
+@font-face {
+  font-family: YekanBakh-Hairline;
+  src: url(../../public/YekanBakh-Hairline.ttf);
+}
+
+@font-face {
+  font-family: YekanBakh-Medium;
+  src: url(./../../public/YekanBakh-Medium.ttf);
+}
+
+@font-face {
+  font-family: YekanBakh-Heavy;
+  src: url(../../public/YekanBakh-Heavy.ttf);
+}
+
+@font-face {
+  font-family: YekanBakh-Light;
+  src: url(../../public/YekanBakh-Light.ttf);
+}
+
+@font-face {
+  font-family: YekanBakh-Regular;
+  src: url(../../public/YekanBakh-Regular.ttf);
+}
+
+body {
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}

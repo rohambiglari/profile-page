@@ -1,0 +1,215 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toggle-logo {
+  display: flex;
+  outline: none !important;
+  border: none !important;
+  background-color: #ffffff;
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.rectangle {
+  width: 9px;
+  height: 9px;
+  margin: 0 3px 3px 0;
+  border-radius: 2px;
+  border: solid 1.5px #004594;
+  background-color: #004594;
+}
+
+.profile-text {
+  color: #004594;
+  text-align: center;
+  font-family: YekanBakh-Heavy;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+.profile-text > p {
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+
+.profile-items {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15px;
+  padding-top: 30px;
+}
+
+.avatar-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+  flex-direction: row;
+}
+
+.name-number {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  align-items: end;
+}
+
+.number {
+  display: flex;
+}
+
+.name {
+  display: flex;
+}
+
+.name > p {
+  color: #707070;
+  font-family: YekanBakh-Medium;
+  text-align: right;
+  margin: 0;
+}
+
+.number > P {
+  color: #707070;
+  font-family: YekanBakh-Medium;
+  text-align: right;
+  margin: 0;
+}
+
+.avatar {
+  width: 75px;
+  height: 75px;
+}
+
+.avatar > img {
+  border: 1px solid #6d6e71;
+  border-radius: 39px;
+}
+
+.wallet-section {
+  width: 100%;
+  padding: 10px 25px;
+  background-color: #004594;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1px 0;
+}
+.wallet-contaner-item {
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+  justify-content: space-between;
+}
+
+.wallet-item {
+  display: flex;
+}
+
+.wallet-item > div {
+  color: #fff;
+  align-items: center;
+  font-family: YekanBakh-Medium;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.wallet-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  border: 2px solid white;
+  margin-left: 10px;
+}
+.value {
+  color: #fff;
+  font-family: YekanBakh-Medium;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* jodamishe */
+
+@media (max-width: 1167px) {
+  .user-profile {
+    width: 247px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .animated-section {
+    height: 720px;
+    animation-duration: 1s;
+    animation-name: expand;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+  }
+
+  .profile-items {
+    width: 186px;
+    padding-top: 0;
+  }
+
+  .profile-text > p {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .active-title {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 34%;
+  }
+
+  .active-title > p {
+    color: #707070;
+    margin: 0;
+  }
+
+  .active-title > p:first-child {
+    color: #707070;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .active-title > div > img {
+    margin-bottom: 0px;
+    margin-bottom: -8px;
+  }
+
+  .active-title > p:last-child {
+    color: #707070;
+    font-family: YekanBakh-Medium;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .wallet-section {
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profile-items {
+    width: 100%;
+  }
+
+  .contaner-user-profile {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .wallet-section {
+    margin: 10px 0;
+    padding: 10px 9px;
+  }
+}
